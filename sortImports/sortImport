@@ -1,0 +1,14 @@
+package main
+
+import(
+	"d"
+	"b"
+	"c"
+	"a"
+)
+
+func Check(e error) {
+	if e != nil {
+		panic(e)
+	}
+}
